@@ -1,5 +1,7 @@
 # Wither dimension filter
 
+Download it on curseforge: https://www.curseforge.com/minecraft/mc-mods/wither-dimension-filter
+
 Prevents the wither from spawning outside the nether.
 
 ![The wither structure in the overworld](docs/illustration.png)
