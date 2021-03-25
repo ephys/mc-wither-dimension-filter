@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+[[mods]]
+modId = "whitherdimfilter"
+version = "${file.jarVersion}"
+displayName = "Wither Dimension Filter"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+#logoFile = "examplemod.png"
+credits = ""
+authors = "ephys"
+description = '''
+Prevents wither from spawning in specified dimensions
+'''
+[[dependencies.whitherdimfilter]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[36,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.whitherdimfilter]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.16.5,1.17)"
+    ordering = "NONE"
+    side = "BOTH"
